@@ -1,0 +1,77 @@
+.Faq{
+    background-color: rgb(255, 100, 100);
+    min-height: 80vmin;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.faqhead{
+    text-align: center;
+    font-size: 3em;
+    background-color: transparent;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dfaqhead{
+    text-align: center;
+    font-size: 3em;
+    background-color: transparent;
+    color: #b8b8b8;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.questionwrapper{
+    text-align: center;
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.question{
+    width: 70%;
+    min-height: 2em;
+    background-color: rgb(95, 0, 0);
+    align-items: center;
+    justify-self: center;
+    margin-left: 15%;
+    overflow-wrap: break-word; 
+    font-size: 23px; 
+    margin-bottom: 3px;  
+}
+.dquestion{
+    width: 70%;
+    min-height: 2em;
+    background-color: rgb(221, 0, 0);
+    color: #b8b8b8;
+    align-items: center;
+    justify-self: center;
+    margin-left: 15%;
+    overflow-wrap: break-word; 
+    font-size: 23px;   
+    margin-bottom: 3px;  
+}
+.answer{
+    width: 70%;
+    min-height: 2em;
+    background-color: rgb(95, 0, 0);
+    align-items: center;
+    justify-self: center;
+    margin-left: 15%;
+    overflow-wrap: break-word; 
+    font-size: 23px;   
+    margin-bottom: 10px;  
+}
+.danswer{
+    width: 70%;
+    min-height: 2em;
+    background-color: rgb(221, 0, 0);
+    color: #b8b8b8;
+    align-items: center;
+    justify-self: center;
+    margin-left: 15%;
+    overflow-wrap: break-word; 
+    font-size: 23px;  
+    margin-bottom: 10px;   
+}

@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .Forgotten{
+    max-width: 100%;
+    flex-grow: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    background-color: rgb(255, 100, 100);
+    height: 80vmin;
+    display: flex;
+    justify-content: center;   
+    }
+    
+    .changing{
+        color:#000000;
+        margin-top: -0.8em;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.5em;
+        background-color: #949494;
+    }
+
+    .forgotWrapper{
+    margin-top: 1em;
+    width: 45em;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(155, 155, 155);
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    color: antiquewhite;
+    border-radius: 50px;
+    padding: 60px 10px;
+    height: 30em;
+    }
+    
+    .title{
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: 700;
+    color: #000000;
+    cursor: default;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    }
+    .dtitle{
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: 700;
+    color: #b8b8b8;
+    cursor: default;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    }
+    
+    .Forgotten.pwdinputBox{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    position: relative;
+    }
+    .pwdinputBox input{
+        margin-left: 10px;
+        width: 95%;
+        width: 95%;
+        height: 2.3em;
+        background: #dddddd;
+        border: 2px solid gray;
+        border-radius: 40px;
+        padding: 20px 40px 20px 20px;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0.3em;
+    }
+    .pwdinputBox input::placeholder{
+        color:rgb(155, 155, 155)
+        }
+
+    .pwdinputBox input:hover,
+    .pwdinputBox input:focus{
+    background-color: #a5a5a5;
+}
+    .Forgotten.pwdinputBoxred{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+    .pwdinputBoxred input{
+        margin-left: 10px;
+        width: 95%;
+        height: 2.3em;
+        background: #dddddd;
+        border: 2px solid gray;
+        box-shadow: 0 0 10px #ff0000;
+        border-radius: 40px;
+        padding: 20px 40px 20px 20px;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0.3em;
+    }
+    .pwdinputBoxred input::placeholder{
+        color:rgb(155, 155, 155)
+        }
+
+    .pwdinputBoxred input:hover,
+    .pwdinputBoxred input:focus{
+    background-color: #a5a5a5;
+}
+
+    .Forgotten.confinputBox1{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    }
+    .confinputBox1 input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+    }
+    .confinputBox1 input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+    .confinputBox1 input:hover,
+    .confinputBox1 input:focus{
+        background-color: #a5a5a5;
+    }
+
+    .Forgotten.confinputBox1red{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    }
+    .confinputBox1red input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+    }
+    .confinputBox1red input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+    .confinputBox1red input:hover,
+    .confinputBox1red input:focus{
+        background-color: #a5a5a5;
+    }
+
+    .EmailinputBox input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+
+    .Forgotten.EmailinputBox{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .EmailinputBox input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+
+    }
+    .EmailinputBox input:hover,
+    .EmailinputBox input:focus{
+        background-color: #a5a5a5;
+    }
+    .EmailinputBoxred input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+
+    .Forgotten.EmailinputBoxred{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .EmailinputBoxred input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    }
+    .EmailinputBoxred input:hover,
+    .EmailinputBoxred input:focus{
+        background-color: #a5a5a5;
+    }
+    
+    .forgotbtn{
+    position: fixed ;left:35%; bottom:25%;
+    padding-top: 5px;
+    width: 33%;
+    height: 45px;
+    background: #b9b9b9;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(29, 29, 29);
+    cursor: pointer;
+    color: #000000;
+    font-weight: 700;
+    font-size:25px;
+    }
+    .forgotbtn:hover,
+    .forgotbtn:focus{
+    background-color: #ff0000;
+    }
+    
+    .Forgottenli {
+    padding: 1rem;
+    cursor: pointer;
+    }
+    
+    .Forgottenli:hover, 
+    .Forgottenli:focus {
+    padding: 1rem;
+    }
+    
+    .Forgottenli a {
+    color: black;
+    text-decoration: none;
+    }
+    
+    .Forgottenli:hover, 
+    .Forgottenli:focus, 
+    .Forgottenli:hover a, 
+    .Forgottenli:focus a  {
+    color: #000000;
+    }
+    
+    
+    .Forgottenli {
+    color: black;
+    list-style-type: none
+    }
+    
+    .Forgottenul {
+    color: black;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    align-items:flex-end;
+    }
+    
+    .error1{
+        color:#ff0000;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.2em;
+    }
+    .required{
+        color:#ff0000;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.2em;
+        padding-top: 0.4em;
+    }
+    .failed{
+        color:#ff0000;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.2em;
+    }   
+     .eyebtnconf{
+        position: fixed; top:224px; right:30px;
+        background: transparent;
+        border: transparent;
+        cursor: pointer;
+    }
+    .eyebtnconf:hover{
+        transform: scale(1.1);
+    }
+    .eyeconf{
+        height: 10vmin;
+        pointer-events: none;
+        cursor: pointer;    
+    }
+    .eyebtnpwd{
+        position: fixed; top:164px; right:30px;
+        background: transparent;
+        border: transparent;
+        cursor: pointer;
+    }
+    .eyebtnpwd:hover{
+        transform: scale(1.1);
+    }
+    .eyepwd{
+        height: 10vmin;
+        pointer-events: none;
+        cursor: pointer;    
+    }
+    @media screen and (max-width:992px) and (min-width:470px) {
+        .title{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color: black;
+            cursor: default;
+            margin-top: -1em;
+            margin-bottom: 1em;
+            width: 95%;
+        }  
+        .dtitle{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color: #b8b8b8;
+            cursor: default;
+            margin-top: -1em;
+            margin-bottom: 1em;
+            width: 95%;
+        }  
+        .Forgotten.pwdinputBox{
+            width: 90%;
+            height: 60px;
+            margin-top: 65px;
+            margin-left: 3%;
+            position: absolute;
+        }
+        .pwdinputBox input{
+            width: 70%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Forgotten.confinputBox1{
+            width: 90%;
+            height: 60px;
+            margin-top: 125px;
+            margin-left: 3%;
+            position: absolute;
+        }
+        .confinputBox1 input{
+            width: 70%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Forgotten.EmailinputBox{
+            width: 97%;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            }
+        
+        .EmailinputBox input{
+            width: 80%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+            justify-content: center;
+        }
+        .Forgotten.inputBoxred{
+            width: 10em;
+            height: 60px;
+            margin-top: 65px;
+            margin-left: 3%;
+            position: absolute;
+        }
+        .inputBoxred input{
+            width: 15.5em;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Forgotten.confinputBox1red{
+            width: 10em;
+            height: 60px;
+            margin-top: 125px;
+            margin-left: 3%;
+            position: absolute;
+        }
+        .confinputBox1red input{
+            width: 15.5em;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Forgotten.EmailinputBoxred{
+            width: 10em;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            }
+        
+        .EmailinputBoxred input{
+            width: 16.5em;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+            justify-content: center;
+        }
+        .forgotbtn{
+            margin-top: 185px;
+            padding-top: 5px;
+            width: 30%;
+            height: 45px;
+            background: #b9b9b9;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgb(29, 29, 29);
+            cursor: pointer;
+            color: #000000;
+            font-weight: 700;
+            font-size:20px;
+        }
+      }
+      @media screen and (max-width:470px){
+        .title{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color: black;
+            cursor: default;
+            margin-top: -1em;
+            margin-bottom: 1em;
+            width: 95%;
+        }  
+        .dtitle{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color: #b8b8b8;
+            cursor: default;
+            margin-top: -1em;
+            margin-bottom: 1em;
+            width: 95%;
+        }  
+        .Forgotten.pwdinputBox{
+            width: 98%;
+            height: 60px;
+            margin-top: 65px;
+            position: absolute;
+        }
+        .pwdinputBox input{
+            width: 80%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Forgotten.confinputBox1{
+            width: 98%;
+            height: 60px;
+            margin-top: 125px;
+            position: absolute;
+        }
+        .confinputBox1 input{
+            width: 80%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Forgotten.EmailinputBox{
+            width: 98%;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            }
+        
+        .EmailinputBox input{
+            width: 90%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+            justify-content: center;
+        }
+        .Forgotten.inputBoxred{
+            width: 98%;
+            height: 60px;
+            margin-top: 65px;
+            position: absolute;
+        }
+        .inputBoxred input{
+            width: 80%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Forgotten.confinputBox1red{
+            width: 98%;
+            height: 60px;
+            margin-top: 125px;
+            position: absolute;
+        }
+        .confinputBox1red input{
+            width: 80%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Forgotten.EmailinputBoxred{
+            width: 98%;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            }
+        
+        .EmailinputBoxred input{
+            width: 90%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+            justify-content: center;
+        }
+        .forgotbtn{
+            margin-top: 185px;
+            padding-top: 5px;
+            width: 30%;
+            height: 45px;
+            background: #b9b9b9;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgb(29, 29, 29);
+            cursor: pointer;
+            color: #000000;
+            font-weight: 700;
+            font-size:20px;
+        }
+      }

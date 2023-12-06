@@ -1,0 +1,592 @@
+.Login {
+    padding: 1rem;
+    overflow-y: auto;
+    height: 82.5vh;
+    display: flex;
+    justify-content: center;   
+    background-color: #dbdbdb;
+    }
+    
+.Wrapper{
+    margin-top: 4em;
+    width: 40em;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(155, 155, 155);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    color: antiquewhite; 
+    border-radius: 50px;
+    padding: 60px 10px;
+    height: 26em;
+}
+    
+    .loading{
+        color:#000000;
+        margin-top: -0.8em;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.5em;
+        background-color: #949494;
+    }
+    .failed{
+        color:#ff0000;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.2em;
+    }
+    .requirement{
+        color:#ff0000;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.2em;
+    }
+    .error{
+        color:#ff0000;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.2em;
+    }
+    
+    .big{
+    text-align: center;
+    cursor: default;
+    font-size: 3.5em;
+    font-weight: 700;
+    padding-bottom: 0.6em;
+    color:#020000;
+    margin-top: -0.7em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* animation: Logo-sign-change 5s infinite forwards ease-in-out; */
+    }
+    .dbig{
+        text-align: center;
+        cursor: default;
+        font-size: 3.5em;
+        font-weight: 700;
+        padding-bottom: 0.6em;
+        color:#b8b8b8;
+        margin-top: -0.7em;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+/*     @keyframes Login-sign-change {
+        0% {
+          color: black;
+        }
+        25% {
+            color: blue;
+        }
+        50% {
+          color: red;
+        }
+        75% {
+          color: gray;
+        }
+        100% {
+          color: green;
+        }
+      } */
+    
+    .Login .UserinputBox{
+    width: 100%;
+    height: 60px;
+    margin-top: 0px;
+    position: relative;
+    padding-left: 4%;
+    }
+    
+    .UserinputBox input{
+    width: 95%;
+    height: 2em;
+    background: #dddddd ;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    }
+    .UserinputBox input:hover,
+    .UserinputBox input:focus{
+        background-color: #a5a5a5;
+    }
+    
+    .UserinputBox input::placeholder{
+    color:rgb(100, 100, 100)
+    }
+    
+    .Login .UserinputBoxred{
+    width: 100%;
+    height: 60px;
+    margin-top: 0px;
+    position: relative;
+    padding-left: 4%;
+    }
+    
+    .UserinputBoxred input{
+    width: 95%;
+    height: 2em;
+    background: #dddddd ;
+    border: 2px solid gray;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #ff0000;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    }
+    .UserinputBoxred input:hover,
+    .UserinputBoxred input:focus{
+        background-color: #a5a5a5;
+    }
+    
+    .UserinputBoxred input::placeholder{
+    color:rgb(100, 100, 100)
+    }
+    .Login .passinputBox{
+        width: 100%;
+        height: 60px;
+        margin-top: 15px;
+        position: relative;
+        padding-left: 4%;
+    }
+    
+    .passinputBox input{
+    width: 95%;
+    height: 2em;
+    background: #dddddd ;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    }
+    .passinputBox input:hover,
+    .passinputBox input:focus{
+        background-color: #a5a5a5;
+    }
+    
+    .passinputBox input::placeholder{
+    color:rgb(100, 100, 100)
+    }
+    
+    .Login .passinputBoxred{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    position: relative;
+    }
+    
+    .passinputBoxred input{
+    width: 95%;
+    height: 2em;
+    background: #dddddd ;
+    border: 2px solid gray;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #ff0000;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    }
+    .passinputBoxred input:hover,
+    .passinputBoxred input:focus{
+        background-color: #a5a5a5;
+    }
+    
+    .passinputBoxred input::placeholder{
+    color:rgb(100, 100, 100)
+    }
+    
+    .space{
+        margin-top: 1em;
+    }
+    
+    .spaceout{
+        font-size: 18px;
+        color: #000000;
+    }
+    .forgot{
+        font-size: 18px;
+        color: #000000;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .dforgot{
+        font-size: 18px;
+        color: #b8b8b8;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .signup{
+        display: flex;
+        justify-content: center;
+        margin-left: -3%;
+        margin-bottom: -20px;
+        margin-top: 10px;
+    }
+    .dsignup{
+        display: flex;
+        justify-content: center;
+        margin-left: -3%;
+        margin-bottom: -20px;
+        margin-top: 10px;
+    }
+    .spaceoutlink{
+        color: #990000;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    .dspaceoutlink{
+        color: #990000;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    .spaceoutlink:hover,
+    .spaceoutlink:focus{
+        color:#ff0000;
+        font-style: italic;
+    }
+    .dspaceout{
+        font-size: 18px;
+        color: #b8b8b8;
+        margin-left: 20px;
+    }
+    .dspaceoutlink:hover,
+    .dspaceoutlink:focus{
+        color:#ff0000;
+        font-style: italic;
+    }
+    .dforgot:hover,
+    .dforgot:focus{
+        color:#ff0000;
+        font-style: italic;
+    }
+    .forgot:hover,
+    .forgot:focus{
+        color:#ff0000;
+        font-style: italic;
+    }
+    
+    .Login .button{
+    padding-top: 5px;
+    margin-left: 35%;
+    margin-top: 0px;
+    width: 30%;
+    height: 55px;
+    background: #b9b9b9;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(29, 29, 29);
+    cursor: pointer;
+    color: #000000;
+    font-weight: 700;
+    font-size:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    
+    .Login .btn:hover{
+        transform:translateY(0.1em);
+        background-color: #990000;
+    }
+    
+    .eyebtn1{
+        position: fixed; top:184px; right:30px;
+        background: transparent;
+        border: transparent;
+        cursor: pointer;
+    }
+    .eyebtn1:hover{
+        transform: scale(1.1);
+    }
+    .eye1{
+        height: 9vmin;
+        pointer-events: none;
+        cursor: pointer;    
+    }
+    
+    @media screen and (max-width:670px) and (min-width:469px) {
+        .big{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color: black;
+            cursor: default;
+            margin-top: 0em;
+            margin-bottom: 0em;
+            width: 95%;
+        }  
+        .dbig{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color:#b8b8b8;
+            cursor: default;
+            margin-top: 0em;
+            margin-bottom: 0em;
+            width: 95%;
+        }  
+        .Login .passinputBox{
+            width: 98%;
+            height: 60px;
+            margin-top: 65px;
+            position: absolute;
+        }
+        .passinputBox input{
+            width: 70%;
+            height: 0%;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+    
+        .Login .userinputBox{
+            width: 100%;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            margin-left: 0%;
+            }
+        
+        .userinputBox input{
+            width: 70%;
+            height: 0%;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Login .passinputBoxred{
+            width: 98%;
+            height: 60px;
+            margin-top: 65px;
+            position: absolute;
+        }
+        .passinputBoxred input{
+            width: 90%;
+            height: 0%;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+    
+        .Login .inputBoxred{
+            width: 100%;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            margin-left: 0%;
+            }
+        
+        .inputBoxred input{
+            width: 90%;
+            height: 0%;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Login .btn{
+            margin-top: 135px;
+            padding-top: 5px;
+            width: 30%;
+            height: 45px;
+            background: #b9b9b9;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgb(29, 29, 29);
+            cursor: pointer;
+            color: #000000;
+            font-weight: 700;
+            font-size:20px;
+        }
+        .eyebtn1{
+            position: absolute;
+            margin-left: 35%;
+            margin-top: 4.5em;
+            padding-left: 10px;
+            margin-bottom: 1em;
+            background: transparent;
+            border: transparent;
+        }
+        .eyebtn1:hover{
+            transform: scale(1.1);
+        }
+        .eye1{
+            height: 8vmin;
+            pointer-events: none;
+            cursor: pointer;    
+        }
+      }
+      @media screen and (max-width:470px){
+        .big{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color: black;
+            cursor: default;
+            margin-top: -1em;
+            margin-bottom: 0em;
+            width: 95%;
+        }  
+        .dbig{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color:#b8b8b8;
+            cursor: default;
+            margin-top: -1em;
+            margin-bottom: 0em;
+            width: 95%;
+        }  
+        .Login .passinputBox{
+            width: 98%;
+            height: 60px;
+            margin-top: 65px;
+            position: absolute;
+        }
+        .passinputBox input{
+            width: 90%;
+            height: 0%;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+    
+        .Login .userinputBox{
+            width: 110%;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            margin-left: -1.5em;
+            }
+        
+        .userinputBox input{
+            width: 90%;
+            height: 0%;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Login .passinputBoxred{
+            width: 98%;
+            height: 60px;
+            margin-top: 65px;
+            position: absolute;
+        }
+        .passinputBoxred input{
+            width: 90%;
+            height: 0%;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+    
+        .Login .inputBoxred{
+            width: 110%;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            margin-left: -1.5em;
+            }
+        
+        .inputBoxred input{
+            width: 90%;
+            height: 0%;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Login .btn{
+            margin-top: 125px;
+            padding-top: 5px;
+            width: 30%;
+            height: 45px;
+            background: #b9b9b9;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgb(29, 29, 29);
+            cursor: pointer;
+            color: #000000;
+            font-weight: 700;
+            font-size:20px;
+        }
+        .eyebtn1{
+            position: absolute;
+            margin-left: 30%;
+            margin-top: 4.5em;
+            padding-left: 10px;
+            margin-bottom: 1em;
+            background: transparent;
+            border: transparent;
+        }
+        .eyebtn1:hover{
+            transform: scale(1.1);
+        }
+        .eye1{
+            height: 11vmin;
+            pointer-events: none;
+            cursor: pointer;    
+        }
+      }
+      @media screen and (max-width:992px) and (min-width:669px) {
+        .eyebtn1{
+            position: absolute;
+            margin-left: 30%;
+            margin-top: 4.5em;
+            padding-left: 10px;
+            margin-bottom: 1em;
+            background: transparent;
+            border: transparent;
+        }
+        .Login .passinputBox{
+            width: 90%;
+            height: 60px;
+            margin-top: 65px;
+            position: absolute;
+        }
+        .passinputBox input{
+            width: 70%;
+            height: 0%;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+    
+        .Login .userinputBox{
+            width: 90%;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            }
+        
+        .userinputBox input{
+            width: 100%;
+            height: 0%;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }  
+        .Login .btn{
+            margin-top: 125px;
+            padding-top: 5px;
+            width: 30%;
+            height: 45px;
+            background: #b9b9b9;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgb(29, 29, 29);
+            cursor: pointer;
+            color: #000000;
+            font-weight: 700;
+            font-size:20px;
+        }
+      }

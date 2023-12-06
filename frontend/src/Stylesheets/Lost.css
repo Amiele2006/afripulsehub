@@ -1,0 +1,50 @@
+.Lost{
+    background-color: rgb(255, 100, 100);
+    max-width: 100%;
+    flex-grow: 1;
+    height: 85vh;
+    color: rgb(190, 190, 190);
+    justify-content: center;
+}
+.topline{
+    padding-top: 8em;
+    text-align: center;
+}
+
+.first{
+    margin-right: 10px;
+    font-size: 100px;
+    margin-top: -3em;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.second{
+    font-weight:lighter;
+    font-size: 110px;
+}
+
+.third{
+    margin-left: 10px;
+    font-size: 100px;
+    margin-top: -3em;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bottomline{
+    color: rgb(190, 190, 190);
+    margin-top: 2em;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.bottomline .link{
+    color: rgb(255, 0, 0)
+}
+.bottomline .link:hover{
+    color: rgb(153, 0, 0)
+}

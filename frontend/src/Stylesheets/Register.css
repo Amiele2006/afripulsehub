@@ -1,0 +1,904 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+.Register{
+max-width: 100%;
+flex-grow: 1;
+padding: 1rem;
+overflow-y: auto;
+background-color: rgb(255, 100, 100);
+height: 80vmin;
+display: flex;
+justify-content: center;   
+}
+
+.changing{
+    color:#000000;
+    margin-top: -0.8em;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    background-color: #949494;
+}
+
+.regWrapper{
+margin-top: 1em;
+width: 45em;
+background: transparent;
+backdrop-filter: blur(20px);
+border: 1px solid rgb(155, 155, 155);
+box-shadow: 0 0 15px rgb(0, 0, 0);
+color: antiquewhite;
+border-radius: 50px;
+padding: 40px 10px;
+height: fit-content;
+}
+
+.regtitle{
+text-align: center;
+font-size: 2.3em;
+font-weight: 700;
+color: #000000;
+cursor: default;
+margin-top: -1em;
+margin-bottom: 1em;
+}
+.dregtitle{
+text-align: center;
+font-size: 2.3em;
+font-weight: 700;
+color: #b8b8b8;
+cursor: default;
+margin-top: -1em;
+margin-bottom: 1em;
+}
+
+.Register.inputBoxfirst{
+width: 100%;
+height: 40px;
+margin-top: 5px;
+position: relative;
+}
+.inputBoxfirst input{
+    margin-left: 10px;
+    width: 95%;
+    width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+.inputBoxfirst input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+
+.inputBoxfirst input:hover,
+.inputBoxfirst input:focus{
+background-color: #a5a5a5;
+}
+.Register.inputBoxfirstred{
+width: 100%;
+height: 60px;
+margin-top: 5px;
+position: relative;
+}
+.inputBoxfirstred input{
+    margin-left: 10px;
+    width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    box-shadow: 0 0 10px #ff0000;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+.inputBoxfirstred input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+
+.inputBoxfirstred input:hover,
+.inputBoxfirstred input:focus{
+background-color: #a5a5a5;
+}
+
+.Register.inputBoxlast{
+width: 100%;
+height: 60px;
+margin-top: 5px;
+margin-bottom: 5px;
+position: relative;
+}
+.inputBoxlast input{
+    margin-left: 10px;
+    width: 95%;
+height: 2.3em;
+background: #dddddd;
+border: 2px solid gray;
+border-radius: 40px;
+padding: 20px 40px 20px 20px;
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 0.3em;
+}
+.inputBoxlast input::placeholder{
+color:rgb(155, 155, 155)
+}
+.inputBoxlast input:hover,
+.inputBoxlast input:focus{
+    background-color: #a5a5a5;
+}
+
+.Register.inputBoxlastred{
+width: 100%;
+height: 60px;
+margin-top: 5px;
+margin-bottom: 5px;
+position: relative;
+}
+.inputBoxlastred input{
+    margin-left: 10px;
+    width: 95%;
+height: 2.3em;
+background: #dddddd;
+border: 2px solid gray;
+border-radius: 40px;
+padding: 20px 40px 20px 20px;
+box-shadow: 0 0 10px #ff0000;
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 0.3em;
+}
+.inputBoxlastred input::placeholder{
+color:rgb(155, 155, 155)
+}
+.inputBoxlastred input:hover,
+.inputBoxlastred input:focus{
+    background-color: #a5a5a5;
+}
+
+.inputBoxgen input::placeholder{
+color:rgb(155, 155, 155)
+}
+
+.Register.inputBoxgen{
+width: 100%;
+height: 60px;
+margin-top: 5px;
+position: relative;
+}
+
+.inputBoxgen select{
+    background-color:#dddddd;
+    border: 2px solid gray;
+    padding-left: 10px;
+    border-radius: 40px;
+    margin-left: 10px;
+    width: 95%;
+    height: 2.3em;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 10px;
+}
+.inputBoxgen option{
+    background-color:#dddddd;
+    border: 2px solid gray;
+    padding-left: 10px;
+    border-radius: 40px;
+    margin-left: 10px;
+    width: 95%;
+    height: 1em;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 5px;
+}
+.inputBoxgen select:hover,
+.inputBoxgen select:focus{
+    background-color: #a5a5a5;
+}
+
+.Register.inputBoxgenred{
+width: 100%;
+height: 60px;
+margin-top: 5px;
+position: relative;
+}
+
+.inputBoxgenred select{
+    margin-left: 10px;
+    width: 95%;
+height: 2.3em;
+background: #dddddd;
+border: 2px solid gray;
+border-radius: 40px;
+padding: 20px 40px 20px 20px;
+box-shadow: 0 0 10px #ff0000;
+font-size: 24px;
+font-weight: 600;
+justify-content: center;
+margin-bottom: 0.3em;
+}
+.inputBoxgenred select:hover,
+.inputBoxgenred select:focus{
+    background-color: #a5a5a5;
+}
+.Register.inputBoxdob{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .inputBoxdob input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+
+    }
+    .inputBoxdob input:hover,
+    .inputBoxdob input:focus{
+        background-color: #a5a5a5;
+    }
+    .inputBoxdobred input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+
+    .Register.inputBoxdobred{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .inputBoxdobred input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    }
+    .inputBoxdobred input:hover,
+    .inputBoxdobred input:focus{
+        background-color: #a5a5a5;
+    }
+    
+.Register.inputBoxphone{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .inputBoxphone input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+
+    }
+    .inputBoxphone input:hover,
+    .inputBoxphone input:focus{
+        background-color: #a5a5a5;
+    }
+    .inputBoxphonered input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+
+    .Register.inputBoxphonered{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .inputBoxphonered input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    }
+    .inputBoxphonered input:hover,
+    .inputBoxphonered input:focus{
+        background-color: #a5a5a5;
+    }
+    
+.Register.inputBoxemail{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .inputBoxemail input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+
+    }
+    .inputBoxemail input:hover,
+    .inputBoxemail input:focus{
+        background-color: #a5a5a5;
+    }
+    .inputBoxemailred input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+
+    .Register.inputBoxemailred{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .inputBoxemailred input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    }
+    .inputBoxemailred input:hover,
+    .inputBoxemailred input:focus{
+        background-color: #a5a5a5;
+    }
+            
+.Register.inputBoxpassword{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .inputBoxpassword input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+
+    }
+    .inputBoxpassword input:hover,
+    .inputBoxpassword input:focus{
+        background-color: #a5a5a5;
+    }
+    .inputBoxpasswordred input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+
+    .Register.inputBoxpasswordred{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .inputBoxpasswordred input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    }
+    .inputBoxpasswordred input:hover,
+    .inputBoxpasswordred input:focus{
+        background-color: #a5a5a5;
+    }
+        
+.Register.inputBoxconfirm{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .inputBoxconfirm input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+
+    }
+    .inputBoxconfirm input:hover,
+    .inputBoxconfirm input:focus{
+        background-color: #a5a5a5;
+    }
+    .inputBoxconfirmred input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+
+    .Register.inputBoxconfirmred{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .inputBoxconfirmred input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    }
+    .inputBoxconfirmred input:hover,
+    .inputBoxconfirmred input:focus{
+        background-color: #a5a5a5;
+    }
+
+    .regbtn{
+    position: relative ;left:15%; bottom:-40%;
+    margin-top: 10px;
+    padding-top: 5px;
+    width: 28%;
+    height: 45px;
+    background: #b9b9b9;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(29, 29, 29);
+    cursor: pointer;
+    color: #000000;
+    font-weight: 700;
+    font-size:25px;
+    }
+    .regbtn:hover,
+    .regbtn:focus{
+    background-color: #ff0000;
+    }
+    .regbash{
+    position: relative ;left:25%; bottom:-40%;
+    padding-top: 5px;
+    width: 28%;
+    height: 45px;
+    background: #b9b9b9;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(29, 29, 29);
+    cursor: pointer;
+    color: #000000;
+    font-weight: 700;
+    font-size:25px;
+    }
+    .regbash:hover,
+    .regbash:focus{
+    background-color: #ff0000;
+    }
+    
+    .Registerli {
+    padding: 1rem;
+    cursor: pointer;
+    }
+    
+    .Registerli:hover, 
+    .Registerli:focus {
+    padding: 1rem;
+    }
+    
+    .Registerli a {
+    color: black;
+    text-decoration: none;
+    }
+    
+    .Registerli:hover, 
+    .Registerli:focus, 
+    .Registerli:hover a, 
+    .Registerli:focus a  {
+    color: #000000;
+    }
+    
+    
+    .Registerli {
+    color: black;
+    list-style-type: none
+    }
+    
+    .Registerul {
+    color: black;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    align-items:flex-end;
+    }
+    
+    .error1{
+        color:#ff0000;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.2em;
+    }
+    .required{
+        color:#ff0000;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.2em;
+        padding-top: 0.4em;
+    }
+    .failed{
+        color:#ff0000;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.2em;
+    }   
+     .eyebtnconfreg{
+        position: fixed; top:517px; right:30px;
+        background: transparent;
+        border: transparent;
+        cursor: pointer;
+    }
+    .eyebtnconfreg:hover{
+        transform: scale(1.1);
+    }
+    .eyeconfreg{
+        height: 10vmin;
+        pointer-events: none;
+        cursor: pointer;    
+    }
+    .eyebtnpwdreg{
+        position: fixed; top:455px; right:30px;
+        background: transparent;
+        border: transparent;
+        cursor: pointer;
+    }
+    .eyebtnpwdreg:hover{
+        transform: scale(1.1);
+    }
+    .eyepwdreg{
+        height: 10vmin;
+        pointer-events: none;
+        cursor: pointer;    
+    }
+    @media screen and (max-width:992px) and (min-width:470px) {
+        .title{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color: black;
+            cursor: default;
+            margin-top: -1em;
+            margin-bottom: 1em;
+            width: 95%;
+        }  
+        .dtitle{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color: #b8b8b8;
+            cursor: default;
+            margin-top: -1em;
+            margin-bottom: 1em;
+            width: 95%;
+        }  
+        .Register.inputBoxfirst{
+            width: 90%;
+            height: 60px;
+            margin-top: 65px;
+            margin-left: 3%;
+            position: absolute;
+        }
+        .inputBoxfirst input{
+            width: 70%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Register.inputBoxlast{
+            width: 90%;
+            height: 60px;
+            margin-top: 125px;
+            margin-left: 3%;
+            position: absolute;
+        }
+        .inputBoxlast input{
+            width: 70%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Register.inputBoxgen{
+            width: 97%;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            }
+        
+        .inputBoxgen input{
+            width: 80%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+            justify-content: center;
+        }
+        .Register.inputBoxred{
+            width: 10em;
+            height: 60px;
+            margin-top: 65px;
+            margin-left: 3%;
+            position: absolute;
+        }
+        .inputBoxred input{
+            width: 15.5em;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Register.inputBoxlastred{
+            width: 10em;
+            height: 60px;
+            margin-top: 125px;
+            margin-left: 3%;
+            position: absolute;
+        }
+        .inputBoxlastred input{
+            width: 15.5em;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Register.inputBoxgenred{
+            width: 10em;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            }
+        
+        .inputBoxgenred input{
+            width: 16.5em;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+            justify-content: center;
+        }
+        .regbtn{
+            margin-top: 185px;
+            padding-top: 5px;
+            width: 30%;
+            height: 45px;
+            background: #b9b9b9;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgb(29, 29, 29);
+            cursor: pointer;
+            color: #000000;
+            font-weight: 700;
+            font-size:20px;
+        }
+      }
+      @media screen and (max-width:470px){
+        .title{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color: black;
+            cursor: default;
+            margin-top: -1em;
+            margin-bottom: 1em;
+            width: 95%;
+        }  
+        .dtitle{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color: #b8b8b8;
+            cursor: default;
+            margin-top: -1em;
+            margin-bottom: 1em;
+            width: 95%;
+        }  
+        .Register.inputBoxfirst{
+            width: 98%;
+            height: 60px;
+            margin-top: 65px;
+            position: absolute;
+        }
+        .inputBoxfirst input{
+            width: 80%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Register.inputBoxlast{
+            width: 98%;
+            height: 60px;
+            margin-top: 125px;
+            position: absolute;
+        }
+        .inputBoxlast input{
+            width: 80%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Register.inputBoxgen{
+            width: 98%;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            }
+        
+        .inputBoxgen input{
+            width: 90%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+            justify-content: center;
+        }
+        .Register.inputBoxred{
+            width: 98%;
+            height: 60px;
+            margin-top: 65px;
+            position: absolute;
+        }
+        .inputBoxred input{
+            width: 80%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Register.inputBoxlastred{
+            width: 98%;
+            height: 60px;
+            margin-top: 125px;
+            position: absolute;
+        }
+        .inputBoxlastred input{
+            width: 80%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Register.inputBoxgenred{
+            width: 98%;
+            height: 60px;
+            margin-top: 5px;
+            position: absolute;
+            }
+        
+        .inputBoxgenred input{
+            width: 90%;
+            height: 2.3em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+            justify-content: center;
+        }
+        .regbtn{
+            margin-top: 185px;
+            padding-top: 5px;
+            width: 30%;
+            height: 45px;
+            background: #b9b9b9;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgb(29, 29, 29);
+            cursor: pointer;
+            color: #000000;
+            font-weight: 700;
+            font-size:20px;
+        }
+      }
