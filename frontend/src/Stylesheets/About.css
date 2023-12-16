@@ -1,6 +1,5 @@
 .About{
-    background-color: rgb(255, 100, 100);
-    height: 80vmin;
+  background-color: #dbdbdb;
     flex-grow: 1;
     padding: 1rem;
     min-height: 100vh;
@@ -54,67 +53,47 @@
     height: 9vmin;
     pointer-events: none;
   }
-  .images{
-    height: 95vh;
-    width: 60vh;
-    pointer-events: none;
-    float: left;
-    margin-right: 10px;
-  }
 
-  .sideimage{
-    margin-top: -15px;
-  }
 
   .textbox{
-    text-align: right;
+    text-align: left;
+    margin-top: -8em;
   }
 
   .story{
     font-family:'Times New Roman', Times, serif;
     margin-right: 6em;
-    margin-top: -0.2em;
+    margin-top:0.2em;
+    margin-bottom: 20px;
     font-size:4em;
-    font-style: italic;
     color:#2c0101
-  }
+  }  
 
   .para1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-right: -1em;
+    font-family:'Times New Roman', Times, serif;
     margin-bottom: 10px;
     text-align: left;
-    font-size: 18px;
-    font-style: italic;
+    font-size: 25px;
     color:#2c0101;
   }
 
   .para2{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-right: -1em;
+    font-family:'Times New Roman', Times, serif;
     margin-bottom: 10px;
+    margin-top: 10px;
     text-align: left;
-    font-size: 18px;
-    font-style: italic;
+    font-size: 25px;
     color:#2c0101;
   }
 
-  .para3{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-right: -1em;
-    text-align: left;
-    font-size: 18px;
-    font-style: italic;
-    color:#2c0101;
-  }
 
   .hours{
     font-family:'Times New Roman', Times, serif;
     font-size: 2.5em;
     margin-right: 12em;
-    margin-top: 0.5em;
-    font-style: italic;
+    margin-top:0.95em;
     color:#2c0101;
+    margin-bottom: 20px;
   }
 
   .day1{
@@ -126,80 +105,74 @@
   .day11{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:#2c0101;
-
+    font-size: 23px;
+    margin-left: 70px;
   }
   .day2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:#2c0101;
-    margin-left: 0.3em;
+    font-size: 23px;
+    margin-left: 0px;
   }
   .day3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:#2c0101;
-    margin-left: 0em;
+    font-size: 23px;
+    margin-left: -10px;
   }
 
   .dstory{
     font-family:'Times New Roman', Times, serif;
     margin-right: 6em;
-    margin-top: -0.2em;
+    margin-top: 0.2em;
+    margin-bottom: 20px;
     font-size:4em;
-    font-style: italic;
     color:#b8b8b8
-  }
+  }  
 
   .dpara1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-right: -1em;
+    font-family:'Times New Roman', Times, serif;
     margin-bottom: 10px;
     text-align: left;
-    font-size: 18px;
-    font-style: italic;
+    font-size: 25px;
     color:#b8b8b8;
   }
 
   .dpara2{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-right: -1em;
+    font-family:'Times New Roman', Times, serif;
     margin-bottom: 10px;
     text-align: left;
-    font-size: 18px;
-    font-style: italic;
+    font-size: 25px;
     color:#b8b8b8;
   }
 
-  .dpara3{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-right: -1em;
-    text-align: left;
-    font-size: 18px;
-    font-style: italic;
-    color:#b8b8b8;
-  }
 
   .dhours{
     font-family:'Times New Roman', Times, serif;
     font-size: 2.5em;
     margin-right: 9em;
-    margin-top: 0.5em;
-    font-style: italic;
+    margin-top: 0.9em;
     color:#b8b8b8;
+    margin-bottom: 20px;
   }
 
   .dday1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-right: 2em;
-    margin-left: 16em;
+    margin-left: 1em;
     color:#b8b8b8;
   }
   .dday11{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:#b8b8b8
+    color:#b8b8b8;
+    font-size: 23px;
+    margin-left: 70px;
   }
   .dday2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:#b8b8b8;
-    margin-left: 0.3em;
+    font-size: 23px;
+    margin-left: 0px;
   }
   .dday3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -224,7 +197,7 @@
 
   .sameline{
     display: flex;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
   }
 
@@ -233,7 +206,6 @@
     margin-right: 9.6em;
     margin-top: 1em;
     font-size: 2.5em;
-    font-style: italic;
     color:#2c0101
   }
   .dclientelle{
@@ -241,13 +213,11 @@
     margin-right: 9.6em;
     margin-top: 1em;
     font-size: 2.5em;
-    font-style: italic;
     color:#b8b8b8
   }
 
   .logolist{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-right: 0em;
   }
   
   @media screen and (max-width:992px) {
