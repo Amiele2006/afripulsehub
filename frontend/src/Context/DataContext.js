@@ -16,6 +16,17 @@ export const DataProvider = ({ children }) => {
     const [newPwd, setnewPwd] = useState('')
     const [confirmPwd, setconfirmPwd] = useState('')
     const [status, setstatus] = useState('')
+    const [firstNameInput, setfirstNameInput] = useState('')
+    const [lastNameInput, setlastNameInput] = useState('')
+    const [genInput, setgenInput] = useState('')
+    const [birthInput, setbirthInput] = useState('')
+    const [phoneInput, setphoneInput] = useState('')
+    const [emailregInput, setemailregInput] = useState('')
+    const [addressInput, setaddressInput] = useState('')  
+    const [passInput, setpassInput] = useState('')
+    const [confirmInput, setconfirmInput] = useState('')
+    const [usernameInput, setusernameInput] = useState('')
+    const [ analysis, setanalysis ] = useState('General')
 
     useEffect(()=>{
       setdark(JSON.parse(localStorage.getItem('AfriPulseDarkMode')) || false) 
@@ -28,7 +39,7 @@ export const DataProvider = ({ children }) => {
     }
 
     return (
-        <DataContext.Provider value={{setaccessKey, accessKey, userInput, setuserInput, pwdInput, setpwdInput, emailInput, setemailInput, newPwd, setnewPwd, confirmPwd, setconfirmPwd, loggedIn, setloggedIn, setuser, user, status, setstatus, dark, setdark, navigate, handleRefresh}}>
+        <DataContext.Provider value={{setaccessKey, accessKey, userInput, setuserInput, pwdInput, setpwdInput, emailInput, setemailInput, newPwd, setnewPwd, confirmPwd, setconfirmPwd, loggedIn, setloggedIn, setuser, user, status, setstatus, dark, setdark, navigate, handleRefresh, birthInput, setbirthInput,genInput, setgenInput,firstNameInput, setfirstNameInput, lastNameInput, setlastNameInput, addressInput, setaddressInput,emailregInput, setemailregInput, phoneInput, setphoneInput, passInput, setpassInput, confirmInput, setconfirmInput, usernameInput, setusernameInput, analysis, setanalysis}}>
         {children}
         </DataContext.Provider>
     )
