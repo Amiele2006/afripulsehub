@@ -101,10 +101,6 @@
     font-size: 24px;
     font-weight: 600;
     }
-    .UserinputBox input:hover,
-    .UserinputBox input:focus{
-        background-color: #a5a5a5;
-    }
     
     .UserinputBox input::placeholder{
     color:rgb(100, 100, 100)
@@ -129,10 +125,6 @@
     font-size: 24px;
     font-weight: 600;
     }
-    .UserinputBoxred input:hover,
-    .UserinputBoxred input:focus{
-        background-color: #a5a5a5;
-    }
     
     .UserinputBoxred input::placeholder{
     color:rgb(100, 100, 100)
@@ -154,10 +146,6 @@
     padding: 20px 40px 20px 20px;
     font-size: 24px;
     font-weight: 600;
-    }
-    .passinputBox input:hover,
-    .passinputBox input:focus{
-        background-color: #a5a5a5;
     }
     
     .passinputBox input::placeholder{
@@ -181,10 +169,6 @@
     padding: 20px 40px 20px 20px;
     font-size: 24px;
     font-weight: 600;
-    }
-    .passinputBoxred input:hover,
-    .passinputBoxred input:focus{
-        background-color: #a5a5a5;
     }
     
     .passinputBoxred input::placeholder{
