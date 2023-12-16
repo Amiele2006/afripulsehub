@@ -1,0 +1,332 @@
+.Donate{
+    background-color: #dbdbdb;
+    min-height: 80vmin;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    display: flex;
+}
+.donwrapper{
+    margin-top: 1em;
+    width: 45em;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(155, 155, 155);
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    color: antiquewhite;
+    border-radius: 50px;
+    padding: 40px 10px;
+    height: fit-content;
+    }
+
+    .dontitle{
+        text-align: center;
+        font-size: 2.3em;
+        font-weight: 700;
+        color: #000000;
+        cursor: default;
+        margin-top: -1em;
+        margin-bottom: 1em;
+        }
+        .ddontitle{
+        text-align: center;
+        font-size: 2.3em;
+        font-weight: 700;
+        color: #b8b8b8;
+        cursor: default;
+        margin-top: -1em;
+        margin-bottom: 1em;
+        }
+
+        .Register.inputBoxweight{
+            width: 100%;
+            height: 40px;
+            margin-top: 5px;
+            position: relative;
+            }
+            .inputBoxweight input{
+                margin-left: 10px;
+                width: 95%;
+                width: 95%;
+                height: 2.3em;
+                background: #dddddd;
+                border: 2px solid gray;
+                border-radius: 40px;
+                padding: 20px 40px 20px 20px;
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 0.3em;
+            }
+            .inputBoxweight input::placeholder{
+                color:rgb(155, 155, 155)
+                }
+            
+            
+            .Register.inputBoxweightred{
+            width: 100%;
+            height: 60px;
+            margin-top: 5px;
+            position: relative;
+            }
+            .inputBoxweightred input{
+                margin-left: 10px;
+                width: 95%;
+                height: 2.3em;
+                background: #dddddd;
+                border: 2px solid gray;
+                box-shadow: 0 0 10px #ff0000;
+                border-radius: 40px;
+                padding: 20px 40px 20px 20px;
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 0.3em;
+            }
+            .inputBoxweightred input::placeholder{
+                color:rgb(155, 155, 155)
+                }
+            
+
+
+.Register.inputBoxblood{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+    
+    .inputBoxblood select{
+        background-color:#dddddd;
+        border: 2px solid gray;
+        padding-left: 10px;
+        border-radius: 40px;
+        margin-left: 10px;
+        width: 95%;
+        height: 2.3em;
+        font-size: 24px;
+        font-weight: 600;
+        justify-content: center;
+        margin-bottom: 0.3em;
+        color: #000000;
+    }
+    .inputBoxblood option{
+        background-color:#dddddd;
+        border: 2px solid gray;
+        padding-left: 10px;
+        border-radius: 40px;
+        margin-left: 10px;
+        width: 95%;
+        height: 1em;
+        font-weight: 600;
+        justify-content: center;
+        margin-bottom: 0.3em;
+        color: #000000;
+        font-size: 15px;
+    }
+    
+    .inputBoxblood input::placeholder{
+        color:rgb(155, 155, 155)
+        }
+    
+    .Register.inputBoxbloodred{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+    
+    .inputBoxbloodred select{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    }
+
+    .Register.inputBoxhistory{
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        position: relative;
+        }
+        .inputBoxhistory textarea{
+            margin-left: 10px;
+            width: 95%;
+            height: 10em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 0.3em;
+            overflow-wrap: break-word;
+        }
+        .inputBoxhistory input::placeholder{
+            color:rgb(155, 155, 155)
+            }
+        
+        
+        .Register.inputBoxhistoryred{
+        width: 100%;
+        height: 60px;
+        margin-top: 5px;
+        position: relative;
+        }
+        .inputBoxhistoryred textarea{
+            margin-left: 10px;
+            width: 95%;
+            height: 10em;
+            background: #dddddd;
+            border: 2px solid gray;
+            box-shadow: 0 0 10px #ff0000;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 0.3em;
+            overflow-wrap: break-word;
+        }
+        .inputBoxhistoryred input::placeholder{
+            color:rgb(155, 155, 155)
+            }
+      
+
+.Register.inputBoxgeno{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+    
+    .inputBoxgeno select{
+        background-color:#dddddd;
+        border: 2px solid gray;
+        padding-left: 10px;
+        border-radius: 40px;
+        margin-left: 10px;
+        width: 95%;
+        height: 2.3em;
+        font-size: 24px;
+        font-weight: 600;
+        justify-content: center;
+        margin-bottom: 0.3em;
+        color: #000000;
+    }
+    .inputBoxgeno option{
+        background-color:#dddddd;
+        border: 2px solid gray;
+        padding-left: 10px;
+        border-radius: 40px;
+        margin-left: 10px;
+        width: 95%;
+        height: 1em;
+        font-weight: 600;
+        justify-content: center;
+        margin-bottom: 0.3em;
+        color: #000000;
+        font-size: 15px;
+    }
+    
+    .inputBoxgeno input::placeholder{
+        color:rgb(155, 155, 155)
+        }
+    
+    .Register.inputBoxgenored{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+    
+    .inputBoxgenored select{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    }
+    
+    .Register.inputBoxdate{
+        width: 100%;
+        height: 60px;
+        margin-top: 5px;
+        position: relative;
+        }
+    
+        .inputBoxdate input{
+            margin-left: 10px;
+            width: 95%;
+        height: 2.3em;
+        background: #dddddd;
+        border: 2px solid gray;
+        border-radius: 40px;
+        padding: 20px 40px 20px 20px;
+        font-size: 24px;
+        font-weight: 600;
+        justify-content: center;
+        margin-bottom: 0.3em;
+    
+        }
+        
+        .inputBoxdatered input::placeholder{
+        color:rgb(155, 155, 155)
+        }
+    
+        .Register.inputBoxdatered{
+        width: 100%;
+        height: 60px;
+        margin-top: 5px;
+        position: relative;
+        }
+    
+        .inputBoxdatered input{
+            margin-left: 10px;
+            width: 95%;
+        height: 2.3em;
+        background: #dddddd;
+        border: 2px solid gray;
+        border-radius: 40px;
+        padding: 20px 40px 20px 20px;
+        box-shadow: 0 0 10px #ff0000;
+        font-size: 24px;
+        font-weight: 600;
+        justify-content: center;
+        margin-bottom: 0.3em;
+        }
+        .godonbtn{
+            position: relative ;left:35%; bottom:30%;
+            margin-top: 20px;
+            padding-top: 5px;
+            width: 28%;
+            height: 45px;
+            background: #b9b9b9;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgb(29, 29, 29);
+            cursor: pointer;
+            color: #000000;
+            font-weight: 700;
+            font-size:25px;
+            }
+            .godonbtn:hover,
+            .godonbtn:focus{
+            background-color: #ff0000;
+            }
+
+.avai{
+    color: #000000;
+    text-align: center;
+}

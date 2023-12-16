@@ -1,0 +1,333 @@
+.Request{
+    background-color: #dbdbdb;
+    min-height: 80vmin;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.reqwrapper{
+    margin-top: 1em;
+    width: 45em;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(155, 155, 155);
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    color: antiquewhite;
+    border-radius: 50px;
+    padding: 40px 10px;
+    height: fit-content;
+    }
+
+    .reqtitle{
+        text-align: center;
+        font-size: 2.3em;
+        font-weight: 700;
+        color: #000000;
+        cursor: default;
+        margin-top: -1em;
+        margin-bottom: 1em;
+        }
+        .dreqtitle{
+        text-align: center;
+        font-size: 2.3em;
+        font-weight: 700;
+        color: #b8b8b8;
+        cursor: default;
+        margin-top: -1em;
+        margin-bottom: 1em;
+        }
+
+        .Register.inputBoxweightreq{
+            width: 100%;
+            height: 40px;
+            margin-top: 5px;
+            position: relative;
+            }
+            .inputBoxweightreq input{
+                margin-left: 10px;
+                width: 95%;
+                width: 95%;
+                height: 2.3em;
+                background: #dddddd;
+                border: 2px solid gray;
+                border-radius: 40px;
+                padding: 20px 40px 20px 20px;
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 0.3em;
+            }
+            .inputBoxweightreq input::placeholder{
+                color:rgb(155, 155, 155)
+                }
+            
+            
+            .Register.inputBoxweightreqred{
+            width: 100%;
+            height: 60px;
+            margin-top: 5px;
+            position: relative;
+            }
+            .inputBoxweightreqred input{
+                margin-left: 10px;
+                width: 95%;
+                height: 2.3em;
+                background: #dddddd;
+                border: 2px solid gray;
+                box-shadow: 0 0 10px #ff0000;
+                border-radius: 40px;
+                padding: 20px 40px 20px 20px;
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 0.3em;
+            }
+            .inputBoxweightreqred input::placeholder{
+                color:rgb(155, 155, 155)
+                }
+            
+
+
+.Register.inputBoxbloodreq{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+    
+    .inputBoxbloodreq select{
+        background-color:#dddddd;
+        border: 2px solid gray;
+        padding-left: 10px;
+        border-radius: 40px;
+        margin-left: 10px;
+        width: 95%;
+        height: 2.3em;
+        font-size: 24px;
+        font-weight: 600;
+        justify-content: center;
+        margin-bottom: 0.3em;
+        color: #000000;
+    }
+    .inputBoxbloodreq option{
+        background-color:#dddddd;
+        border: 2px solid gray;
+        padding-left: 10px;
+        border-radius: 40px;
+        margin-left: 10px;
+        width: 95%;
+        height: 1em;
+        font-weight: 600;
+        justify-content: center;
+        margin-bottom: 0.3em;
+        color: #000000;
+        font-size: 15px;
+    }
+    
+    .inputBoxbloodreq input::placeholder{
+        color:rgb(155, 155, 155)
+        }
+    
+    .Register.inputBoxbloodreqred{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+    
+    .inputBoxbloodreqred select{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    }
+
+    .Register.inputBoxsubstance{
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        position: relative;
+        }
+        .inputBoxsubstance textarea{
+            margin-left: 10px;
+            width: 95%;
+            height: 7em;
+            background: #dddddd;
+            border: 2px solid gray;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 0.3em;
+            overflow-wrap: break-word;
+        }
+        .inputBoxsubstance input::placeholder{
+            color:rgb(155, 155, 155)
+            }
+        
+        
+        .Register.inputBoxsubstancered{
+        width: 100%;
+        height: 60px;
+        margin-top: 5px;
+        position: relative;
+        }
+        .inputBoxsubstancered textarea{
+            margin-left: 10px;
+            width: 95%;
+            height: 7em;
+            background: #dddddd;
+            border: 2px solid gray;
+            box-shadow: 0 0 10px #ff0000;
+            border-radius: 40px;
+            padding: 20px 40px 20px 20px;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 0.3em;
+            overflow-wrap: break-word;
+        }
+        .inputBoxsubstancered input::placeholder{
+            color:rgb(155, 155, 155)
+            }
+      
+
+.Register.inputBoxgenoreq{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+    
+    .inputBoxgenoreq select{
+        background-color:#dddddd;
+        border: 2px solid gray;
+        padding-left: 10px;
+        border-radius: 40px;
+        margin-left: 10px;
+        width: 95%;
+        height: 2.3em;
+        font-size: 24px;
+        font-weight: 600;
+        justify-content: center;
+        margin-bottom: 0.3em;
+        color: #000000;
+    }
+    .inputBoxgenoreq option{
+        background-color:#dddddd;
+        border: 2px solid gray;
+        padding-left: 10px;
+        border-radius: 40px;
+        margin-left: 10px;
+        width: 95%;
+        height: 1em;
+        font-weight: 600;
+        justify-content: center;
+        margin-bottom: 0.3em;
+        color: #000000;
+        font-size: 15px;
+    }
+    
+    .inputBoxgenoreq input::placeholder{
+        color:rgb(155, 155, 155)
+        }
+    
+    .Register.inputBoxgenoreqred{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+    
+    .inputBoxgenoreqred select{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    }
+    
+    .Register.inputBoxdatereq{
+        width: 100%;
+        height: 60px;
+        margin-top: 5px;
+        position: relative;
+        }
+    
+        .inputBoxdatereq input{
+            margin-left: 10px;
+            width: 95%;
+        height: 2.3em;
+        background: #dddddd;
+        border: 2px solid gray;
+        border-radius: 40px;
+        padding: 20px 40px 20px 20px;
+        font-size: 24px;
+        font-weight: 600;
+        justify-content: center;
+        margin-bottom: 0.3em;
+    
+        }
+        
+        .inputBoxdatereqred input::placeholder{
+        color:rgb(155, 155, 155)
+        }
+    
+        .Register.inputBoxdatereqred{
+        width: 100%;
+        height: 60px;
+        margin-top: 5px;
+        position: relative;
+        }
+    
+        .inputBoxdatereqred input{
+            margin-left: 10px;
+            width: 95%;
+        height: 2.3em;
+        background: #dddddd;
+        border: 2px solid gray;
+        border-radius: 40px;
+        padding: 20px 40px 20px 20px;
+        box-shadow: 0 0 10px #ff0000;
+        font-size: 24px;
+        font-weight: 600;
+        justify-content: center;
+        margin-bottom: 0.3em;
+        }
+        .goreqbtn{
+            position: relative ;left:35%; bottom:30%;
+            margin-top: 20px;
+            padding-top: 5px;
+            width: 28%;
+            height: 45px;
+            background: #b9b9b9;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgb(29, 29, 29);
+            cursor: pointer;
+            color: #000000;
+            font-weight: 700;
+            font-size:25px;
+            }
+            .goreqbtn:hover,
+            .goreqbtn:focus{
+            background-color: #ff0000;
+            }
+    
+            .reqavai{
+                color: #000000;
+                text-align: center;
+            }
