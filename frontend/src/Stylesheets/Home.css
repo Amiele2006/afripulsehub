@@ -1,4 +1,283 @@
 .Home{
-    background-color: rgb(255, 100, 100);
-    height: 80vmin;
+    background-color:#ffffff;
+    min-height: 90vmin;
+}
+.spliting{
+    display: flex;
+}
+
+.leftside{
+    justify-content: left;
+}
+.rightside{
+    justify-content: right;
+    position:relative; right:-7em; top:0em;
+}
+.analysis1{
+    margin-top: 1em;
+    width: 30em;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228, 0, 0);
+    color: Black; 
+    border-radius: 50px;
+    padding: 20px 10px;
+    height: 15em;
+    text-align: center;
+}
+.analysis2{
+    margin-top: 0.5em;
+    width: 30em;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228, 0, 0);
+    color: Black; 
+    border-radius: 50px;
+    padding: 20px 10px;
+    height: 15em;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+.analysis3{
+    margin-top: 0.5em;
+    width: 30em;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228, 0, 0);
+    color: Black; 
+    border-radius: 50px;
+    padding: 20px 10px;
+    height: 15em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.danalysis1{
+    margin-top: 1em;
+    width: 30em;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228, 0, 0);
+    color: #d8d8d8; 
+    border-radius: 50px;
+    padding: 20px 10px;
+    height: 15em;
+    text-align: center;
+}
+.danalysis2{
+    margin-top: 0.5em;
+    width: 30em;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228, 0, 0);
+    color: #d8d8d8; 
+    border-radius: 50px;
+    padding: 20px 10px;
+    height: 15em;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+.danalysis3{
+    margin-top: 0.5em;
+    width: 30em;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228, 0, 0);
+    color: #d8d8d8; 
+    border-radius: 50px;
+    padding: 20px 10px;
+    height: 15em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.infotitle{
+    font-size: 2em;
+    font-weight: 700;
+}
+.infocontent{
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.infolink{
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: 200;
+}
+
+.gift{
+    position: absolute; top:3.4em; left:0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 2.6em;
+}
+.donate{
+    position: absolute; top:13.9em; left:13.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 2.6em;
+}
+.dgift{
+    position: absolute; top:3.4em; left:0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 2.6em;
+    color: #d8d8d8;
+}
+.ddonate{
+    position: absolute; top:13.9em; left:13.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 2.6em;
+    color: #d8d8d8;
+}
+.donbtn{
+    position: absolute; top:23.9em; left:1.5em;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    width: 20%;
+    height: 45px;
+    background: #c40c0c;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(88, 0, 0);
+    cursor: pointer;
+    color: #ffffff;
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.donbtn:hover,
+.donbtn:focus{
+    background-color: #9e0000;
+}
+
+.homeimg{
+    margin-top: 10px;
+    height: 35em;
+}
+
+.instructions1{
+    margin-left: 1em;
+    margin-top: 0.5em;
+    width: 50em;
+    background: rgb(207, 0, 0);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228, 0, 0);
+    color: rgb(255, 255, 255); 
+    border-radius: 10px;
+    padding: 20px 10px;
+    height: 20em;
+}
+.instructions2{
+    margin-left: 1em;
+    margin-top: 0.5em;
+    width: 50em;
+    background: rgb(207, 0, 0);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228, 0, 0);
+    color: rgb(255, 255, 255); 
+    border-radius: 10px;
+    padding: 20px 10px;
+    height: 20em;
+}
+.instructions3{
+    margin-left: 1em;
+    margin-top: 0.5em;
+    width: 58em;
+    background: rgb(207, 0, 0);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228, 0, 0);
+    color: rgb(255, 255, 255); 
+    border-radius: 10px;
+    padding: 20px 10px;
+    height: 21em;
+    margin-bottom: 1em;
+}
+
+.instructtitle{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.instructcontent{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.othercontent{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.didyouknow1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 2em;
+    font-weight: 500;
+}
+.didyouknow2{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.wholink{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.wholink:hover{
+    color: red;
+}
+
+.didnt1{
+    margin-top: 4em;
+    width: 30em;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228,0,0);
+    color: rgb(0, 0, 0); 
+    border-radius: 10px;
+    padding: 10px 10px;
+    height: 10em;
+    margin-left:1em;
+}
+.didnt2{
+    margin-top: 2em;
+    width: 30em;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228, 0, 0);
+    color: rgb(0, 0, 0); 
+    border-radius: 10px;
+    padding: 10px 10px;
+    height: 40em;
+    margin-left: 1em;
+}
+.ddidnt1{
+    margin-top: 4em;
+    width: 30em;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228,0,0);
+    color: #d8d8d8; 
+    border-radius: 10px;
+    padding: 10px 10px;
+    height: 10em;
+    margin-left:1em;
+}
+.ddidnt2{
+    margin-top: 2em;
+    width: 30em;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(228, 0, 0);
+    color: #d8d8d8; 
+    border-radius: 10px;
+    padding: 10px 10px;
+    height: 40em;
+    margin-left: 1em;
 }
