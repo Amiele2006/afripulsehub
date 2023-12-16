@@ -1,5 +1,5 @@
 .Contact{
-    background-color: rgb(255, 100, 100);
+  background-color: #dbdbdb;
     max-width: 100%;
     flex-grow: 1;
     padding: 1rem;
@@ -10,7 +10,7 @@
 .right1{
   text-align: right;
   margin-top: 0.3em;
-  margin-right: 5.8em;
+  margin-right: 10.8em;
   margin-bottom: -0.2em;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 3.5em;
@@ -33,7 +33,7 @@
 }
 .right3{
   text-align: right;
-  margin-right: 26em;
+  margin-right: 22em;
   margin-top: -0.1em;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.5em;
@@ -52,7 +52,7 @@
 .dright1{
   text-align: right;
   margin-top: 0.3em;
-  margin-right: 5.8em;
+  margin-right: 10.8em;
   margin-bottom: -0.2em;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 3.5em;
@@ -75,7 +75,7 @@
 }
 .dright3{
   text-align: right;
-  margin-right: 26em;
+  margin-right: 22em;
   margin-top: -0.1em;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.5em;
@@ -176,7 +176,8 @@
 .ogo1 {
   height: 25vmin;
   pointer-events: none;
-  cursor: pointer; 
+  cursor: pointer;
+  margin-left: 5em; 
 }
 .ogo2 {
   height: 25vmin;
@@ -268,7 +269,7 @@
   margin-bottom: 4em;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.2em;
-  color:#d8d8d8;
+  color:#b8b8b8;
   font-variant: small-caps;
   font-style:italic
 }

@@ -1,5 +1,5 @@
 .Footer {
-    background: #876cff;
+    background: #898584;
     font-weight:400;
     font-size:14px;
     display:flex;
@@ -23,12 +23,12 @@
   
   .Footertext{
     text-align: center;
-    background: #876cff;
+    background: #898584;
     margin-bottom: -15px;
   }
 
   .FooterMotto{
-    margin-top: -1%;
+    margin-top: 0%;
     font-weight:600;
     font-size:1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -177,7 +177,6 @@
 
 .FootSpace2{
     padding-left: 22em;
-    margin-top: -1%;
   }
   
 .FootSpace3{

@@ -9,7 +9,7 @@
     flex-grow: 1;
     padding: 1rem;
     overflow-y: auto;
-    background-color: rgb(255, 100, 100);
+    background-color: #dbdbdb;
     height: 80vmin;
     display: flex;
     justify-content: center;   

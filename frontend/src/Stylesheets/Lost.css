@@ -1,9 +1,9 @@
 .Lost{
-    background-color: rgb(255, 100, 100);
+    background-color: #dbdbdb;
     max-width: 100%;
     flex-grow: 1;
     height: 85vh;
-    color: rgb(190, 190, 190);
+    color: black;
     justify-content: center;
 }
 .topline{
@@ -35,7 +35,7 @@
 }
 
 .bottomline{
-    color: rgb(190, 190, 190);
+    color: black;
     margin-top: 2em;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
