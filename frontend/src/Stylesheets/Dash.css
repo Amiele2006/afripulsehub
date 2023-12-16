@@ -1,4 +1,395 @@
 .Dash{
-    background-color: rgb(255, 100, 100);
-    height: 80vmin;
+    background-color: #dbdbdb;
+    min-height: 100vmin;
+    flex-grow: 1;
+    overflow-y: auto;
+    background-color: #dbdbdb;;   
+}
+
+.nothere{
+    display: none;
+}
+.here{
+    display: contents;
+}
+
+.chooseanalysis{
+    width: 10%;
+    height: 20px;
+    margin-top: 10px;
+    position: absolute; top:5em; left:40em;
+    }
+    
+.chooseanalysis select{
+    background-color:#d30000;
+    border: 2px solid rgb(0, 0, 0);
+    padding-left: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 95%;
+    height: 2.3em;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    color: #000000;
+}
+.chooseanalysis option{
+    background-color:#dddddd;
+    border: 2px solid gray;
+    padding-left: 10px;
+    border-radius: 40px;
+    margin-left: 10px;
+    width: 95%;
+    height: 1em;
+    font-size: 12px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    color: #000000;
+}
+
+.chooseanalysis select:hover{
+    background-color: #c40000;
+}
+.dchooseanalysis{
+    width: 10%;
+    height: 20px;
+    margin-top: 10px;
+    position: fixed; top:5em; left:40em;
+    }
+    
+.dchooseanalysis select{
+    background-color:#d30000;
+    border: 2px solid rgb(0, 0, 0);
+    padding-left: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 95%;
+    height: 2.3em;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    color: #ffffff;
+}
+.dchooseanalysis option{
+    background-color:#dddddd;
+    border: 2px solid gray;
+    padding-left: 10px;
+    border-radius: 40px;
+    margin-left: 10px;
+    width: 95%;
+    height: 1.5em;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    color: #000000;
+}
+
+.dchooseanalysis select:hover{
+    background-color: #c40000;
+}
+
+.page{
+    margin-top: 5em;
+    margin-left: 1.5em;
+    margin-bottom: 30px;
+}
+
+.dashleft{
+    display: flex;
+}
+
+.positivewrapper{
+    border: 3px solid rgb(255, 163, 163);
+    box-shadow:0 0 5px #888888;
+    width: 20%;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 10px;
+}
+.personalwrapper1{
+    border: 3px solid rgb(199, 199, 199);
+    box-shadow:0 0 5px #888888;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 10px;
+}
+.personalwrapper2{
+    border: 3px solid rgb(199, 199, 199);
+    box-shadow:0 0 5px #888888;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 10px;
+    display: flex;
+    margin-top: 1em;
+}
+.words{
+    text-align: center;
+    margin-right: 1em;
+}
+
+.norp{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+.blood1{
+    height: 20vmin;
+    background: transparent;
+    border: transparent;
+    pointer-events: none;
+    cursor: default;
+    margin-left: -30px;
+}
+.blood2{
+    height: 20vmin;
+    background: transparent;
+    border: transparent;
+    pointer-events: none;
+    cursor: default;
+    margin-left: -30px;
+}
+.blood3{
+    height: 20vmin;
+    background: transparent;
+    border: transparent;
+    pointer-events: none;
+    cursor: default;
+    margin-left: -30px;
+}
+.blood4{
+    height: 20vmin;
+    background: transparent;
+    border: transparent;
+    pointer-events: none;
+    cursor: default;
+    margin-left: -30px;
+}
+.cap1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin-left: -10px;
+    margin-top: 35px;
+}
+.cap2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin-left: -20px;
+    margin-top: 35px;
+}
+.cap3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin-left: -20px;
+    margin-top: 35px;
+}
+.cap4{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin-left: -20px;
+    margin-top: 35px;
+}
+.negativewrapper{
+    border: 3px solid rgb(255, 163, 163);
+    box-shadow:0 0 5px #888888;
+    width: 20%;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 10px;
+    margin-left: 30px;
+}
+
+.totalwrapper1{
+    border: 3px solid rgb(255, 163, 163);
+    box-shadow:0 0 5px #888888;
+    width: 35%;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 10px;
+    margin-left: 30px;
+}
+.totalwrapper2{
+    border: 3px solid rgb(255, 163, 163);
+    box-shadow:0 0 5px #888888;
+    width: 35%;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.totaltitle{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom:10px ;
+}
+.straight{
+    display: flex;
+    margin-top: 20px;
+}
+
+.wordingsa{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-left: 30%;
+}
+.wordingsb{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-left: 1em;
+}
+.wordingsab{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-left: 0.4em;
+}
+
+.wordingstates2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    height: 1.5em;
+    background-color: #f0eeee;
+}
+.wordingstates1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    height: 1.5em;
+    background-color: #e0e0e0;
+}
+
+.totalwrapper3{
+    position: absolute ; top:30em; right: 25.5em;
+    border: 3px solid rgb(255, 163, 163);
+    box-shadow:0 0 5px #888888;
+    width: 26.3%;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.totalwrapper4{
+    position: absolute ; top:30em; right: 0em;
+    border: 3px solid rgb(255, 163, 163);
+    box-shadow:0 0 5px #888888;
+    width: 26.3%;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.totalwrapper5{
+    position: absolute ; top:52em; right: 35em;
+    border: 3px solid rgb(255, 163, 163);
+    box-shadow:0 0 5px #888888;
+    width: 17%;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.totalwrapper6{
+    position: absolute ; top:52em; right: 18em;
+    border: 3px solid rgb(255, 163, 163);
+    box-shadow:0 0 5px #888888;
+    width: 17%;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.totalwrapper7{
+    position: absolute ; top:52em; right: 1em;
+    border: 3px solid rgb(255, 163, 163);
+    box-shadow:0 0 5px #888888;
+    width: 17%;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.numbering{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.godon{
+    position: relative ;left:25%; bottom:30%;
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 15%;
+    height: 55px;
+    background: #b9b9b9;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(29, 29, 29);
+    cursor: pointer;
+    color: #000000;
+    font-weight: 700;
+    font-size:25px;
+}
+.godon:hover,
+.godon:focus{
+    background-color: #ff6d6d;
+}
+
+.goreq{
+    position: relative ;left:45%; bottom:30%;
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 15%;
+    height: 55px;
+    background: #b9b9b9;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(29, 29, 29);
+    cursor: pointer;
+    color: #000000;
+    font-weight: 700;
+    font-size:25px;
+}
+.goreq:hover,
+.goreq:focus{
+    background-color: #ff6d6d;
 }
