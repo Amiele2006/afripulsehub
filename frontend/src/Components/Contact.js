@@ -17,9 +17,9 @@ const Contact = () => {
 
   return (
     <div className='Contact'>
-        <h1 className={!dark ? 'right1' : 'dright1'}>iowdvsalkxmakxvlskzxlk</h1>
-        <h2 className={!dark ? 'right2' : 'dright2'}>uoaujdxznl axk zmkl</h2>
-        <h2 className={!dark ? 'right3' : 'dright3'}>Whaiosdmkcm azxcmzk:r</h2>
+        <h1 className={!dark ? 'right1' : 'dright1'}>Gift A Life</h1>
+        <h2 className={!dark ? 'right2' : 'dright2'}>Donate some Blood today</h2>
+        <h2 className={!dark ? 'right3' : 'dright3'}>Give us a call so you can get started</h2>
         <ul>
          <li>
           <img src={lov} className="ogo1" alt="logo" />
@@ -31,9 +31,9 @@ const Contact = () => {
               rel="noopener noreferrer"
               >
               <div className={!dark ? 'holes' : 'dholes'}>
-                <p className='line1'>oisvlmdvlvskdx</p>
-                <p className='line3'>lisdkmv kmvslxxlvmas;ckc</p>
-                <p className='line2'>judszxicmaxmzmz x</p>
+                <p className='line1'>Lorem Ipsum Lorem </p>
+                <p className='line3'>Ipsum Lorem Ipsum Lorem</p>
+                <p className='line2'>Ipsum Lorem</p>
               </div>
             </a>
           </figcaption>
@@ -42,23 +42,23 @@ const Contact = () => {
           <img src={phone} className="ogo2" alt="logo" />
           <figcaption className='ImgTag'>
             <div className={!dark ? 'phone1' : 'dphone1'}>
-              <p>oidcfxk</p>
-              <p>ipfmdc;kx</p>
+              <p>+234 802 804 6633</p>
+              <p>+234 815 924 1148</p>
             </div>
           </figcaption>
         </li>
         <li>
           <img src={soc} className="ogo3" alt="logo" />
           <figcaption className='ImgTag'>
-            <p className={!dark ? 'soc1' : 'dsoc1'}>Whatsapp: fbdbfbfbdfdf</p>
-            <p className={!dark ? 'soc3' : 'dsoc3'}>Facebook: pklsvdm lksd</p>
-            <p className={!dark ? 'soc2' : 'dsoc2'}>linkedin: jsdvslkcsd</p>
+            <p className={!dark ? 'soc1' : 'dsoc1'}>Whatsapp: Afripulsehub</p>
+            <p className={!dark ? 'soc3' : 'dsoc3'}>Instagram: _Afripulsehub</p>
+            <p className={!dark ? 'soc2' : 'dsoc2'}>linkedin: Afripulsehub</p>
           </figcaption>
         </li>
         <li>
           <img src={email} className="ogo4" alt="logo" />
           <figcaption className='ImgTag'>
-            <p className={!dark ? 'email' : 'demail'}>wemsdmcsancalscm</p>
+            <p className={!dark ? 'email' : 'demail'}>AfriPulseHub@gmail.com</p>
           </figcaption>
         </li>
       </ul>
