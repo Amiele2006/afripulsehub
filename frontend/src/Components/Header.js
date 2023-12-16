@@ -7,7 +7,7 @@ import logo from './logo.png'
 
 const Header = ({ title }) => {
 
-  const { loggedIn, setaccessKey, setuser, setloggedIn, dark, setdark, navigate } = useContext(DataContext)
+  const { loggedIn, setaccessKey, setuser, setloggedIn, dark, setdark, navigate, setanalysis } = useContext(DataContext)
 
   const darkmode = async (e) => {
     e.preventDefault()
@@ -24,6 +24,7 @@ const Header = ({ title }) => {
           setaccessKey('')
           setuser('')
           setloggedIn(false)
+          setanalysis('General')
           navigate('/')
         
 }
@@ -77,9 +78,6 @@ if (!loggedIn){
           </ul>
           <ul className='headspace2'>
               <li><Link to={'/'} onClick={() => {handleLogout()}}>Logout</Link></li>
-          </ul>
-          <ul>
-              <Link to={'/analytics'}><img src={logo} className="App-logo2" alt="logo" /></Link>
           </ul>
           <ul>
               <li>

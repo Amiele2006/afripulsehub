@@ -8,7 +8,7 @@ const Footer = () => {
 
   const { loggedIn, handleRefresh, dark } = useContext(DataContext)
 
-if (loggedIn){
+if (!loggedIn){
     return (  
       <>
         <footer className={!dark ? 'Footer' : 'dFooter'}>
@@ -33,14 +33,14 @@ if (loggedIn){
           </ul>
        </footer>
        <div className={!dark ? 'Footertext' : 'dFootertext'}>
-        <h4 className={!dark ? 'FooterMotto' : 'dFooterMotto'}>First line of footer that will have some cool motto or the other</h4>
-        <h4 className={!dark ? 'FooterMotto1' : 'dFooterMotto1'}>second line that finishes said cool motto</h4>
+        <h4 className={!dark ? 'FooterMotto' : 'dFooterMotto'}>Our aim is to simplify the blood donation process and to foster a culture of regular donations</h4>
+        <h4 className={!dark ? 'FooterMotto1' : 'dFooterMotto1'}>We want to help save lives by providing blood for those who need it</h4>
         <h5 className={!dark ? 'FooterCopyright' : 'dFooterCopyright'}>&copy; 2023 - Powered By let me cook</h5>
        </div>
       </>
     )
   }
-  if (!loggedIn){
+  if (loggedIn){
     return (
       <>
         <footer className={!dark ? 'Footer' : 'dFooter'}>
@@ -72,9 +72,9 @@ if (loggedIn){
         </ol>
       </footer>
       <div className={!dark ? 'Footertext' : 'dFootertext'}>
-        <h4 className={!dark ? 'FooterMotto' : 'dFooterMotto'}>First line of footer that will have some cool motto or the other</h4>
-        <h4 className={!dark ? 'FooterMotto1' : 'dFooterMotto1'}>second line that finishes said cool motto</h4>
-        <h5 className={!dark ? 'FooterCopyright' : 'dFooterCopyright'}>&copy; 2023 - Powered By let me cook</h5>
+        <h4 className={!dark ? 'FooterMotto' : 'dFooterMotto'}>Our aim is to simplify the blood donation process and to foster a culture of regular donations</h4>
+        <h4 className={!dark ? 'FooterMotto1' : 'dFooterMotto1'}>We want to help save lives by providing blood for those who need it</h4>
+        <h5 className={!dark ? 'FooterCopyright' : 'dFooterCopyright'}>&copy; 2023 - Powered By JMTL</h5>
       </div>
       </>
   )}

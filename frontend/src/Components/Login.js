@@ -99,7 +99,7 @@ const Login = () => {
               <h3 className={!dark ? 'spaceout' : 'dspaceout'}>
                 Dont have an account? 
               </h3>
-              <Link to={'/register'}>
+              <Link to={'/register/page1'}>
                 <h3 className={!dark ? 'spaceoutlink' : 'dspaceoutlink'}>Sign Up</h3>
               </Link>
               
