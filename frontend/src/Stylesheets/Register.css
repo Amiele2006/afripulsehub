@@ -9,7 +9,7 @@ max-width: 100%;
 flex-grow: 1;
 padding: 1rem;
 overflow-y: auto;
-background-color: rgb(255, 100, 100);
+background-color: #dbdbdb;
 height: 80vmin;
 display: flex;
 justify-content: center;   
@@ -24,6 +24,30 @@ justify-content: center;
 }
 
 .regWrapper{
+margin-top: 1em;
+width: 45em;
+background: transparent;
+backdrop-filter: blur(20px);
+border: 1px solid rgb(155, 155, 155);
+box-shadow: 0 0 15px rgb(0, 0, 0);
+color: antiquewhite;
+border-radius: 50px;
+padding: 40px 10px;
+height: fit-content;
+}
+.regconWrapper{
+margin-top: 1em;
+width: 45em;
+background: transparent;
+backdrop-filter: blur(20px);
+border: 1px solid rgb(155, 155, 155);
+box-shadow: 0 0 15px rgb(0, 0, 0);
+color: antiquewhite;
+border-radius: 50px;
+padding: 40px 10px;
+height: fit-content;
+}
+.reguserWrapper{
 margin-top: 1em;
 width: 45em;
 background: transparent;
@@ -78,10 +102,7 @@ position: relative;
     color:rgb(155, 155, 155)
     }
 
-.inputBoxfirst input:hover,
-.inputBoxfirst input:focus{
-background-color: #a5a5a5;
-}
+
 .Register.inputBoxfirstred{
 width: 100%;
 height: 60px;
@@ -105,10 +126,7 @@ position: relative;
     color:rgb(155, 155, 155)
     }
 
-.inputBoxfirstred input:hover,
-.inputBoxfirstred input:focus{
-background-color: #a5a5a5;
-}
+
 
 .Register.inputBoxlast{
 width: 100%;
@@ -132,10 +150,7 @@ margin-bottom: 0.3em;
 .inputBoxlast input::placeholder{
 color:rgb(155, 155, 155)
 }
-.inputBoxlast input:hover,
-.inputBoxlast input:focus{
-    background-color: #a5a5a5;
-}
+
 
 .Register.inputBoxlastred{
 width: 100%;
@@ -160,14 +175,6 @@ margin-bottom: 0.3em;
 .inputBoxlastred input::placeholder{
 color:rgb(155, 155, 155)
 }
-.inputBoxlastred input:hover,
-.inputBoxlastred input:focus{
-    background-color: #a5a5a5;
-}
-
-.inputBoxgen input::placeholder{
-color:rgb(155, 155, 155)
-}
 
 .Register.inputBoxgen{
 width: 100%;
@@ -189,8 +196,6 @@ position: relative;
     justify-content: center;
     margin-bottom: 0.3em;
     color: #000000;
-    font-size: 24px;
-    font-weight: 10px;
 }
 .inputBoxgen option{
     background-color:#dddddd;
@@ -200,18 +205,16 @@ position: relative;
     margin-left: 10px;
     width: 95%;
     height: 1em;
-    font-size: 24px;
     font-weight: 600;
     justify-content: center;
     margin-bottom: 0.3em;
     color: #000000;
     font-size: 15px;
-    font-weight: 5px;
 }
-.inputBoxgen select:hover,
-.inputBoxgen select:focus{
-    background-color: #a5a5a5;
-}
+
+.inputBoxgen input::placeholder{
+    color:rgb(155, 155, 155)
+    }
 
 .Register.inputBoxgenred{
 width: 100%;
@@ -234,10 +237,7 @@ font-weight: 600;
 justify-content: center;
 margin-bottom: 0.3em;
 }
-.inputBoxgenred select:hover,
-.inputBoxgenred select:focus{
-    background-color: #a5a5a5;
-}
+
 .Register.inputBoxdob{
     width: 100%;
     height: 60px;
@@ -259,10 +259,7 @@ margin-bottom: 0.3em;
     margin-bottom: 0.3em;
 
     }
-    .inputBoxdob input:hover,
-    .inputBoxdob input:focus{
-        background-color: #a5a5a5;
-    }
+    
     .inputBoxdobred input::placeholder{
     color:rgb(155, 155, 155)
     }
@@ -288,10 +285,7 @@ margin-bottom: 0.3em;
     justify-content: center;
     margin-bottom: 0.3em;
     }
-    .inputBoxdobred input:hover,
-    .inputBoxdobred input:focus{
-        background-color: #a5a5a5;
-    }
+    
     
 .Register.inputBoxphone{
     width: 100%;
@@ -314,10 +308,7 @@ margin-bottom: 0.3em;
     margin-bottom: 0.3em;
 
     }
-    .inputBoxphone input:hover,
-    .inputBoxphone input:focus{
-        background-color: #a5a5a5;
-    }
+    
     .inputBoxphonered input::placeholder{
     color:rgb(155, 155, 155)
     }
@@ -343,10 +334,55 @@ margin-bottom: 0.3em;
     justify-content: center;
     margin-bottom: 0.3em;
     }
-    .inputBoxphonered input:hover,
-    .inputBoxphonered input:focus{
-        background-color: #a5a5a5;
+    
+.Register.inputBoxusername{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
     }
+
+    .inputBoxusername input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+
+    }
+    
+    .inputBoxusernamered input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+
+    .Register.inputBoxusernamered{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .inputBoxusernamered input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    }
+    
     
 .Register.inputBoxemail{
     width: 100%;
@@ -369,10 +405,7 @@ margin-bottom: 0.3em;
     margin-bottom: 0.3em;
 
     }
-    .inputBoxemail input:hover,
-    .inputBoxemail input:focus{
-        background-color: #a5a5a5;
-    }
+    
     .inputBoxemailred input::placeholder{
     color:rgb(155, 155, 155)
     }
@@ -398,10 +431,55 @@ margin-bottom: 0.3em;
     justify-content: center;
     margin-bottom: 0.3em;
     }
-    .inputBoxemailred input:hover,
-    .inputBoxemailred input:focus{
-        background-color: #a5a5a5;
+    
+.Register.inputBoxaddress{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
     }
+
+    .inputBoxaddress input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+
+    }
+    
+    .inputBoxaddressred input::placeholder{
+    color:rgb(155, 155, 155)
+    }
+
+    .Register.inputBoxaddressred{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    }
+
+    .inputBoxaddressred input{
+        margin-left: 10px;
+        width: 95%;
+    height: 2.3em;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    }
+    
             
 .Register.inputBoxpassword{
     width: 100%;
@@ -424,10 +502,7 @@ margin-bottom: 0.3em;
     margin-bottom: 0.3em;
 
     }
-    .inputBoxpassword input:hover,
-    .inputBoxpassword input:focus{
-        background-color: #a5a5a5;
-    }
+    
     .inputBoxpasswordred input::placeholder{
     color:rgb(155, 155, 155)
     }
@@ -453,10 +528,7 @@ margin-bottom: 0.3em;
     justify-content: center;
     margin-bottom: 0.3em;
     }
-    .inputBoxpasswordred input:hover,
-    .inputBoxpasswordred input:focus{
-        background-color: #a5a5a5;
-    }
+    
         
 .Register.inputBoxconfirm{
     width: 100%;
@@ -479,10 +551,7 @@ margin-bottom: 0.3em;
     margin-bottom: 0.3em;
 
     }
-    .inputBoxconfirm input:hover,
-    .inputBoxconfirm input:focus{
-        background-color: #a5a5a5;
-    }
+    
     .inputBoxconfirmred input::placeholder{
     color:rgb(155, 155, 155)
     }
@@ -508,10 +577,7 @@ margin-bottom: 0.3em;
     justify-content: center;
     margin-bottom: 0.3em;
     }
-    .inputBoxconfirmred input:hover,
-    .inputBoxconfirmred input:focus{
-        background-color: #a5a5a5;
-    }
+    
 
     .regbtn{
     position: relative ;left:15%; bottom:-40%;
@@ -546,6 +612,42 @@ margin-bottom: 0.3em;
     }
     .regbash:hover,
     .regbash:focus{
+    background-color: #ff0000;
+    }
+    .conta{
+    position: relative ;left:35%; bottom:30%;
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 28%;
+    height: 45px;
+    background: #b9b9b9;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(29, 29, 29);
+    cursor: pointer;
+    color: #000000;
+    font-weight: 700;
+    font-size:25px;
+    }
+    .conta:hover,
+    .conta:focus{
+    background-color: #ff0000;
+    }
+    .contb{
+    position: relative ;left:35%; bottom:30%;
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 28%;
+    height: 45px;
+    background: #b9b9b9;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(29, 29, 29);
+    cursor: pointer;
+    color: #000000;
+    font-weight: 700;
+    font-size:25px;
+    }
+    .contb:hover,
+    .contb:focus{
     background-color: #ff0000;
     }
     
@@ -601,7 +703,7 @@ margin-bottom: 0.3em;
         font-size: 1.2em;
     }   
      .eyebtnconfreg{
-        position: fixed; top:517px; right:30px;
+        position: fixed; top:205px; right:30px;
         background: transparent;
         border: transparent;
         cursor: pointer;
@@ -615,7 +717,7 @@ margin-bottom: 0.3em;
         cursor: pointer;    
     }
     .eyebtnpwdreg{
-        position: fixed; top:455px; right:30px;
+        position: fixed; top:145px; right:30px;
         background: transparent;
         border: transparent;
         cursor: pointer;
